@@ -8,15 +8,12 @@ class ServerSocket():
 		self.sock.bind(self.server_address)
 		self.sock.listen(1)
 	
-	def getClient(self):
+	def accept(self):
 		connection, client_address = self.sock.accept()
 		return [connection, client_address]
 	
 	def getClientObject(self):
-		return self.ServerSocketHandler(*self.getClient())
-	
-	def startThreadedFunctionWithClient(self, function):
-		pass
+		return self.ServerSocketHandler(*self.accept())
 	
 	class ServerSocketHandler():
 		
