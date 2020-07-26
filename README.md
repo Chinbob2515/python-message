@@ -2,8 +2,11 @@
 A small socket wrapper
 
 Used for sending code, subcode, parameters.
+
 Code: Integer
+
 Subcode: Integer
+
 Params: Array of strings
 
 
