@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="simpleprotocol", # Replace with your own username
-    version="1.0.0",
+    version="1.0.1",
     author="Ben Hack",
     author_email="benjamin.hack@balliol.ox.ac.uk",
     description="A package for using a basic protocol socket",
