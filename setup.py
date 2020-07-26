@@ -11,7 +11,7 @@ setuptools.setup(
     description="A package for using a basic protocol socket",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Chinbob2515/python-message",
+    url="https://github.com/Chinbob2515/python-simpleprotocol",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
